@@ -76,7 +76,7 @@ defaultConfiguration =
       graphvizExe = "dot",
       bokehExe = python,
       plotsjlExe = "julia",
-      plantumlExe = "java",
+      plantumlExe = "plantuml",
       sagemathExe = "sage",
       -- Command line arguments
       matplotlibCmdArgs = mempty,
@@ -90,7 +90,7 @@ defaultConfiguration =
       graphvizCmdArgs = mempty,
       bokehCmdArgs = mempty,
       plotsjlCmdArgs = mempty,
-      plantumlCmdArgs = "-jar plantuml.jar",
+      plantumlCmdArgs = mempty,
       sagemathCmdArgs = mempty,
       -- Extras
       matplotlibTightBBox = False,
